@@ -4,6 +4,8 @@
 
 # I have used most of the code from the description of the assignment itself
 
+# This function will create a matrix whose invese matrix is cache-able 
+# Also, the function generates a list of functions
 makeCacheMatrix <- function(m = matrix()) {
 
     invMatrix <- NULL
@@ -43,7 +45,7 @@ makeCacheMatrix <- function(m = matrix()) {
 
 
 
-# makecachematrix produces inverse of matrix .If inv is already present in original form then the caching will retrieve the cached data
+# makecachematrix produces inverse of matrix .If inv is already present in original form then the caching will retrieve the cached data from cacheSolve
 
 cacheSolve <- function(x, ...) {
          
