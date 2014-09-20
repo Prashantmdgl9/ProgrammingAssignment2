@@ -24,19 +24,19 @@ makeCacheMatrix <- function(m = matrix()) {
 	
 	#getter setter for the inverse
     
-    setInv <- function(inv) {
+    setInverse <- function(inv) {
         invMatrix <<- inv
     }
 
     
-    getInv <- function() {
+    getInverse <- function() {
         invMatrix
     }
 
     #put the functions into list
     list(set = set, get = get,
-         setInverse = setInv,
-         getInverse = getInv)
+         setInverse = setInverse,
+         getInverse = getInverse)
 
 }
 
