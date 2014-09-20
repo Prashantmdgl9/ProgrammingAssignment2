@@ -59,7 +59,7 @@ cacheSolve <- function(x, ...) {
     data <- x$get()
 
    
-    m <- calcInv(data) %*% data
+    m <- calcInv(data,...)
 
    
     x$setInverse(m)
